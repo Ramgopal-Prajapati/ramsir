@@ -334,12 +334,13 @@ section { padding: 100px 0; position: relative; overflow: hidden; }
   display: flex; gap: 40px; margin-top: 48px;
   animation: fadeInLeft 1.3s ease both 0.7s;
 }
+
 .hero-stat h3 {
-  font-family: var(--font-head); font-size: 1.2rem; font-weight: 900;
+  font-family: var(--font-head); font-size: 1.05rem; font-weight: 900;
   background: linear-gradient(135deg, var(--primary), var(--accent));
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
 }
-.hero-stat p { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+.hero-stat p { font-size: 0.50rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
 .hero-image-wrap {
   flex: 1; display: flex; align-items: center; justify-content: center;
   position: relative; z-index: 1;
@@ -932,7 +933,11 @@ section { padding: 100px 0; position: relative; overflow: hidden; }
   .hamburger { display: flex; }
   .about-grid, .contact-grid, .resume-exp-edu, .skills-layout { grid-template-columns: 1fr; }
   .hero-content { max-width: 100%; text-align: center; }
-  .hero-image-wrap { display: none; }
+  
+  .hero-img-glow {
+    position: relative;
+    width: 250px;
+    height: 250px;}
   .hero-stats { justify-content: center; }
   .hero-btns { justify-content: center; }
   .projects-grid, .courses-grid { grid-template-columns: 1fr; }
@@ -1445,7 +1450,7 @@ section { padding: 100px 0; position: relative; overflow: hidden; }
       </div>
     </div>
     <div style="text-align:center;margin-top:40px">
-      <a href="https://github.com/Ramgopal-prajapati" target="_blank" class="btn-primary"><i class="fab fa-github" style="margin-right:8px"></i>View All Projects</a>
+      <a href="https://github.com/Ramgopal-prajapati" target="_blank" class="btn-primary"><i class="fab fa-github" style="margin-right:8px"></i>View All 200+ Projects </a>
     </div>
   </div>
 </section>
